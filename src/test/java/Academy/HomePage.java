@@ -61,6 +61,7 @@ public class HomePage extends BaseClass{
 	@AfterTest
 	public void teardown() {
 		
+		System.out.println("Closing the driver");
 		driver.close();
 	}
 }
